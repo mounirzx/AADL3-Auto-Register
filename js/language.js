@@ -41,7 +41,7 @@ const LANG_TABLE = {
 };
 
 let lang_id = "fr"; // default
-const language_select = document.getElementById( "LANGUAGE_selection" )
+const language_select = document.getElementById( "langauge_selection" )
 
 chrome.storage.local.get( ["language"], (result) => {
     let new_lang_id = "fr";
