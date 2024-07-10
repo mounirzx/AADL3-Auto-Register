@@ -96,7 +96,7 @@ function UpdateUI() {
     {
         /*
             <li>
-                <span>ZEROUAL Aymene</span>
+                <span>ABES Mounir</span>
                 <button>VIEW</button>
                 <button>START</button>
                 <button>STOP</button>
@@ -204,5 +204,5 @@ function PresistEntries() {
 // Github icon href 
 document.getElementsByTagName( "svg" )[0].onclick = (e) => {
     console.log("dd")
-    chrome.tabs.create( { url: "https://www.github.com/zraymene" } )
+    chrome.tabs.create( { url: "https://www.github.com/mounirzx" } )
 }

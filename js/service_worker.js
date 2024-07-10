@@ -1,5 +1,5 @@
 const url = "https://www.aadl3inscription2024.dz/";
-//const url = "http://localhost:8000/";
+//const url = "http://localhost:8000/Mounir";
 
 // first run
 chrome.runtime.onInstalled.addListener((details) => { 

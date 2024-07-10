@@ -5,11 +5,11 @@
     "version": "1.0",
     "action": {
       "default_popup": "popup.html",
-      "default_icon": "res/icon48.png"
+      "default_icon": "res/icon32.png"
     },
     "author": {
-      "name":  "ZEROUAL Aymene",
-      "email": "aymenezeroual@gmail.com"
+      "name":  "ABES Mounir",
+      "email": "mounir2013b@gmail.com"
     },
 
     "background": {
@@ -17,10 +17,10 @@
     },
 
     "icons": {
-      "16":  "res/icon16.png",
-      "32":  "res/icon32.png",
-      "48":  "res/icon48.png",
-      "128": "res/icon128.png"
+      "16":  "res/icon32.png",
+      "32":  "res/icon64-2.png",
+      "48":  "res/icon64-2.png",
+      "128": "res/icon128-2.png"
     },
 
     "permissions": [

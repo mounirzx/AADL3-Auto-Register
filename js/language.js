@@ -2,8 +2,9 @@
 const LANG_TABLE = {
     // English
     "en": {
-        LANGAUGE:     "Language :",
-        LOAD_ENTRIES: "Load entries :",
+        TITLE:        "AADL 2024",
+        LANGUAGE:     "Language :",
+        LOAD_ENTRIES: "Load entries file:",
         ENTRIES_LIST: "Entries list:",
         START_ALL:    "Start all",
         STOP_ALL:     "Stop all",
@@ -14,8 +15,9 @@ const LANG_TABLE = {
 
     // French
     "fr": {
-        LANGAUGE:     "Langue :",
-        LOAD_ENTRIES: "Charger les entrées :",
+        TITLE:        "AADL 2024",
+        LANGUAGE:     "Langue :",
+        LOAD_ENTRIES: "Charger le fichier des entrées :",
         ENTRIES_LIST: "Liste des entrées:",
         START_ALL:    "Lancer tout",
         STOP_ALL:     "Arrêter tous",
@@ -26,8 +28,9 @@ const LANG_TABLE = {
 
     // Arabic
     "ar": {
-        LANGAUGE:     "الغة :",
-        LOAD_ENTRIES: "تحميل الإدخالات :",
+        TITLE:        "عدل 2024",
+        LANGUAGE:     "الغة :",
+        LOAD_ENTRIES: "تحميل ملف الإدخالات :",
         ENTRIES_LIST: "قائمة الإدخالات :",
         START_ALL:    "بدا الجميع",
         STOP_ALL:     "توقيف الجميع",
@@ -38,7 +41,7 @@ const LANG_TABLE = {
 };
 
 let lang_id = "fr"; // default
-const language_select = document.getElementById( "langauge_selection" )
+const language_select = document.getElementById( "LANGUAGE_selection" )
 
 chrome.storage.local.get( ["language"], (result) => {
     let new_lang_id = "fr";
