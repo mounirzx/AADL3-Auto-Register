@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "AADL 3 Helper Extension",
+    "name": "AADL3 Auto Register Extension",
     "description": "AADL 3 Auto: Refresh and Input filler",
     "version": "1.0",
     "action": {
